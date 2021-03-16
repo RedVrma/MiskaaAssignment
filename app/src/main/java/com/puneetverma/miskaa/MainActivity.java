@@ -87,11 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
         rv.setAdapter(adaptor);
 
-
-
-
-
-
+        
     }
 
 
