@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:padding="10dp"
+        >
+
+
+
+    <ImageView
+        android:id="@+id/iv_country_flag"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_country_flag"
+        android:text="India"
+        />
+    <TextView
+        android:id="@+id/tv_country_capital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_country_subregion"
+        android:text="Delhi"
+        />
+
+    <TextView
+        android:id="@+id/tv_country_region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_country_flag"
+        android:layout_below="@+id/tv_country_capital"
+        android:text="region"
+        />
+    <TextView
+        android:id="@+id/tv_country_subregion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_country_capital"
+        android:layout_marginLeft="20dp"
+        android:text="subregion"
+        />
+
+    <TextView
+        android:id="@+id/tv_country_population"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_country_subregion"
+        android:layout_toRightOf="@+id/iv_country_flag"
+        android:text="population"
+        />
+
+    <TextView
+        android:id="@+id/tv_country_borders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_country_population"
+        android:layout_toRightOf="@+id/iv_country_flag"
+        android:text="borders"
+        />
+
+    <TextView
+        android:id="@+id/tv_country_languages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_country_borders"
+        android:layout_toRightOf="@+id/iv_country_flag"
+        android:text="languages"
+        />
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
