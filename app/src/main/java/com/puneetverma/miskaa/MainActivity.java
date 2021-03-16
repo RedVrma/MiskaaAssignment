@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     ArrayList<SingleCountrydb> singleCountrydbs;
     RvCountriesAdaptor adaptor;
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,8 +86,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         rv.setAdapter(adaptor);
-
-
 
 
 
